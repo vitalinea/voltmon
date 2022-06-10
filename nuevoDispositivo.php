@@ -20,4 +20,5 @@ while($columna = mysqli_fetch_array($resultado))
         echo"<td>".$columna['nombre']."</td><td>".$columna['apellidos']."</td><td>".$columna['edad']."</td><td>".$columna['domicilio']."</td><td>".$columna['clave_empleado']."</td>";
         }
     echo"</table>";
+    // Mi modificacoin se vará en git
 ?>
